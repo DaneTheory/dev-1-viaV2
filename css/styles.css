@@ -1,0 +1,186 @@
+body {
+    font: 12px/1.8em "Helvetica Neue", sans-serif;
+    color: #777777;
+}
+body:after {
+    background: url(http://assets.tumblr.com/images/x.gif?v=1) center no-repeat#1c2d31;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background: -webkit-linear-gradient(45deg, #202020;
+    , #1c2d31);
+    background: -o-linear-gradient(45deg, #202020, #1c2d31);
+    background: -moz-linear-gradient(45deg, #202020, #1c2d31);
+    background: linear-gradient(45deg, #202020, #1c2d31);
+}
+a {
+    color: #000000;
+}
+a:hover {
+    color: #239fc5;
+}
+h1, h2, h3, h4, h5, h1 a, h2 a, h3 a, h4 a, h5 a {
+    font: 700 18px/1.2em "Helvetica Neue", sans-serif !important;
+    color: #555555!important;
+}
+blockquote {
+    border-left: 4px solid#efefef;
+}
+#sidebar section {
+    color: #aaaaaa;
+    background: #ffffff;
+}
+#sidebar section h2 {
+    color: #000000!important;
+}
+#sidebar section h1 a {
+    font: 700 22px/1em "Helvetica Neue", sans-serif;
+    color: #000000 !important;
+}
+#sidebar #navigation li a {
+    font: 700 11px/30px "Helvetica Neue", sans-serif;
+    color: #686868;
+    background: rgba(104, 104, 104, .1);
+}
+#sidebar #navigation li a:hover {
+    color: #3c687e;
+    background: rgba(104, 104, 104, .4);
+}
+#sidebar section#social {
+    display: none;
+    display: block;
+    display: block;
+    display: block;
+    display: block;
+    display: block;
+}
+#sidebar #social a {
+    color: #fff;
+    opacity: .7;
+}
+#sidebar #social a:hover {
+    opacity: 1;
+}
+body.slide #sidebar section:first-child {
+    -webkit-animation: slideinright.5s both;
+    animation: slideinright.5s both;
+}
+body.slide #sidebar section:nth-child(2) {
+    -webkit-animation: slideinright.5s .2s both;
+    animation: slideinright.5s .2s both;
+}
+body.slide #sidebar section:nth-child(3) {
+    -webkit-animation: slideinright.5s .4s both;
+    animation: slideinright.5s .4s both;
+}
+body.slide #sidebar section:nth-child(4) {
+    -webkit-animation: slideinright.5s .6s both;
+    animation: slideinright.5s .6s both;
+}
+body.slide #sidebar section:nth-child(5) {
+    -webkit-animation: slideinright.5s .8s both;
+    animation: slideinright.5s .8s both;
+}
+#container {
+    background: #ffffff;
+}
+#fade {
+    background: #ffffff;
+}
+a#slide {
+    top: 30px;
+    background: #111111;
+}
+body.slide a#slide {
+    top: 80px;
+}
+a#slide:hover {
+    background: #239fc5;
+}
+a#slide #icon, a#slide #icon:after, a#slide #icon:before {
+    background: #ffffff;
+}
+.X .photo a.overlay, .X .media a.overlay {
+    background: #29586d;
+}
+.X .photo:hover a.overlay, .X .media:hover a.overlay {
+    opacity: .85;
+}
+.X .photo .h_1, .X .photo .h_1 a, .X .media .h_1, .X .media .h_1 a {
+    color: #fbf8dc;
+}
+.X .photo .h_2 {
+    background: rgba(251, 248, 220, .1);
+}
+.X .photo .h_2 a {
+    font: 700 10px/35px "Helvetica Neue", sans-serif;
+    color: #fbf8dc;
+    background: rgba(251, 248, 220, .2);
+}
+.X .photo .h_2 a:hover {
+    background: rgba(251, 248, 220, .4);
+}
+.X .photo .h_3 a {
+    color: #fbf8dc;
+    box-shadow: inset 0 0 0 2px rgba(251, 248, 220, .8);
+}
+.X .photo .h_3 a:hover {
+    background: rgba(251, 248, 220, .15);
+}
+.X .text {
+    position: relative;
+    padding: 25px;
+}
+.X .captions {
+    padding: 20px 25px;
+}
+.X .text .question {
+    margin: 0 0 20px !important;
+}
+.X .text .question, .X .text.chat li {
+    margin: 0 0 3px;
+    padding: 10px 15px;
+    list-style: none;
+}
+.X .text.chat li:last-child {
+    margin: 0;
+}
+.X .text a.link {
+    display: block;
+    position: relative;
+    margin: 0 0 15px;
+}
+.X .text {
+    box-shadow: inset 0 0 0 1px#efefef;
+}
+.X .text .question, .X .text.chat li {
+    background: rgba(239, 239, 239, .8);
+}
+.X .text .question a, .X .text a.link {
+    font-weight: bold;
+    color: #555555!important;
+}
+#pagination {
+    visibility: hidden;
+    background: #ffffff;
+    border-top: 1px dotted#efefef;
+}
+#pagination a, #pagination span#current {
+    font: 700 13px/70px "Helvetica Neue", sans-serif;
+    color: #555555;
+}
+#pagination a:hover {
+    box-shadow: inset 0 1px#000000, 0 -1px#000000;
+}
+#pagination span#current {
+    box-shadow: inset 0 1px#777777, 0 -1px#777777;
+}
+#P .p-b section, #P .p-b section.o span {
+    border-top: 1px dotted rgba(119, 119, 119, .1);
+}
+#P .p-b section.o span a, #P .p-b section ol.notes li.more_notes_link_container, #P .p-b section ol.notes li.more_notes_link_container a {
+    font: 700 10px/1.8em "Helvetica Neue", sans-serif;
+    color: #555555;
+}
+a#NST, a#CDT, a#kelly, a#saki, #userid-19273 {
+    display: none !important;
+}
